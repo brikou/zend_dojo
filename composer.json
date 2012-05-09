@@ -1,0 +1,31 @@
+{
+    "name": "brikou/zend_dojo",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Dojo Library",
+    "keywords": [
+        "zend framework",
+        "dojo"
+    ],
+    "homepage": "https://github.com/brikou/zend_dojo",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_config": "*",
+        "brikou/zend_filter": "*",
+        "brikou/zend_form": "*",
+        "brikou/zend_json": "*",
+        "brikou/zend_loader": "*",
+        "brikou/zend_registry": "*",
+        "brikou/zend_view": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Dojo": "" }
+    }
+}
